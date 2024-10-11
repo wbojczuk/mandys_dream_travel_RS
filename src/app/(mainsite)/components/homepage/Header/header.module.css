@@ -41,8 +41,14 @@
 
  /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
+    .header h1{
+        font-size: 6rem;
+    }
+    .header img{
+        object-position: bottom;
+    }
     .header{
-        padding: calc(var(--section-padding-top) * 8) 0 calc(var(--section-padding-top) * 1) 0;
+        padding: calc(var(--section-padding-top) * 6) 0 calc(var(--section-padding-top) * 1) 0;
     }
     .header h2{
         padding-top: 6vw;

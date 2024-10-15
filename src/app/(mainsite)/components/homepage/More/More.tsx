@@ -20,7 +20,7 @@ return (
         
 
     <div className={styles.imgWrapper}>
-        <img src="/img/why.png" alt="image of family on beach" />
+        <img src="/img/why.webp" alt="image of family on beach" />
     </div>
 
     <div className={styles.item}>
@@ -33,7 +33,7 @@ return (
         
 </div>
 
-    <img src='/img/why-bg.png' alt='Image of beach' className='bg-img' />
+    <img src='/img/why-bg.webp' alt='Image of beach' className='bg-img' />
     <div style={{backgroundColor: "rgba(255,255,255,.77)"}} className="shader"></div>
  </div>
 )};

@@ -32,11 +32,11 @@ export default function ContactInfo() {
             </a>
             </div>
 
-            <img src="/img/contact-box.png" alt="image of people sittiing on bench" className="bg-img" />
+            <img src="/img/contact-box.webp" alt="image of people sittiing on bench" className="bg-img" />
             <div style={{backgroundColor: "rgba(242, 126, 3, .61)"}} className="shader"></div>
         </div>
         
-          <img src='/img/contact.png' alt='Image of hiking' className='bg-img' />
+          <img src='/img/contact.webp' alt='Image of hiking' className='bg-img' />
           <div style={{backgroundColor: "rgba(0,39,49,.78)"}} className='shader'></div>
     </section>
   )

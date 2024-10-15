@@ -10,7 +10,7 @@ return (
         <Link className='main-link' href={`/contact`}>Book Now</Link>
     </div>
     <div className={styles.imgWrapper}>
-        <img src="/img/globe.png" alt="image of a globe" className="bg-img" />
+        <img src="/img/globe.webp" alt="image of a globe" className="bg-img" />
         <div className={`shader ${styles.shader}`}></div>
     </div>
  </div>

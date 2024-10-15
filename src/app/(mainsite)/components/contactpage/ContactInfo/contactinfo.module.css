@@ -88,10 +88,14 @@
         line-height: 150%;
         font-size: 1.2rem;
     }
+
+    .email a{
+        font-size: 1.2rem;
+    }
     
     .imgWrapper{
         gap: 4vw;
-        width: 35%;
+        width: 40%;
         aspect-ratio: 1/1.8;
     }
     .contentWrapper{

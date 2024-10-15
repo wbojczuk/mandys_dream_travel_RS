@@ -10,7 +10,7 @@ export default function ContactInfo() {
         </div>
         <div className={styles.imgWrapper}>
 
-            <div className={styles.contentWrapper}>
+            <div className={`${styles.contentWrapper} ${styles.email}`}>
               <h5>Email</h5>
               <a href={`mailto:${process.env.NEXT_PUBLIC_EMAIL_ADDRESS}`}>{process.env.NEXT_PUBLIC_EMAIL_ADDRESS}</a>
             </div>

@@ -1,3 +1,6 @@
+import ContactInfo from "@/app/(mainsite)/components/contactpage/ContactInfo/ContactInfo"
+import Expert from "@/app/(mainsite)/components/homepage/Expert/Expert"
+import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -26,7 +29,9 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 export default function ContactPage(){
 	 return(
 	 	 <>
-
+			<PageTitle pageTitle="Contact" />
+			<ContactInfo />
+			<Expert />
 	 	 </>
 	 )
 }

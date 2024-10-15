@@ -1,0 +1,118 @@
+.detailing{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    color: var(--primary-text-color);
+    background-color: var(--secondary-color);
+}
+
+.textWrapper{
+    padding-left: 10%;
+    width: 40%;
+    
+}
+
+.textWrapper h2{
+    font-size: 3.2rem;
+    font-weight: 500;
+    padding-right: 10%;
+    padding-left: 20px;
+    position: relative;
+    font-family: var(--secondary-font);
+}
+.textWrapper h2::after{
+     content: '';
+     display: inline-block;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 8px;
+     height: 100%;
+     background-color: var(--primary-color);
+}
+
+.textWrapper p{
+    margin: 2vw 0;
+    font-size: 1.2rem;
+    
+    line-height: 250%;
+    padding-right: 20%;
+}
+
+.imgWrapper{
+    position: relative;
+    width: 50%;
+    aspect-ratio: 1/1;
+    clip-path: polygon(19% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.shader{
+    background-color: rgba(242, 126, 3, 0.44);
+}
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .textWrapper h2{
+        font-size: 3rem;
+    }
+    .textWrapper{
+       padding-left: 5%;
+        width: 50%;
+    }
+    
+    .textWrapper p{
+        line-height: 180%;
+        margin: 3vw 0;
+        font-size: 1.2rem;
+    }
+    
+    .imgWrapper{
+        aspect-ratio: 1/1.2;
+    }
+    .textWrapper h2{
+        padding-right: 0%;
+        padding-left: 5%;
+    }
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .textWrapper h2{
+        padding-right: 30%;
+    }
+    .textWrapper{
+        z-index: 2;
+        padding-left: 5%;
+        padding: 10vw 5%;
+         width: 90%;
+         font-size: 1.4rem;
+         color: var(--secondary-text-color);
+         background-color: transparent;
+     }
+     
+     .textWrapper p{
+         margin: 6vw 0;
+         font-size: 1.6rem;
+         line-height: 150%;
+     }
+     
+     .imgWrapper{
+         position: absolute;
+         top:0;
+         left:0;
+         width: 100%;
+         height: 100%;
+         clip-path:none;
+         z-index: 0;
+     }
+     .shader{
+        background-color: rgba(128, 67, 2, 0.815);
+        z-index: 1;
+     }
+}

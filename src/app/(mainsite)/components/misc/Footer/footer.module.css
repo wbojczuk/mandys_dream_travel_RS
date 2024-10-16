@@ -77,6 +77,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    word-break: break-all;
     gap: 0.4vw;
     max-width: 20vw;
 }
